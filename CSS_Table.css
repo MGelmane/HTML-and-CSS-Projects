@@ -1,0 +1,28 @@
+
+h1 {
+	font-size: 25px;
+	color:#008080;
+	
+}
+
+table{
+	border: 3px dotted #4682B4;
+}
+
+tr, th {
+	font-size: 25px;
+	color: #E0FFFF; 
+	background-color: #5F9EA0;
+}
+
+tr, td {
+	font-size: 20px;
+	text-align: center;
+	color: #008080 	;
+	background-color: 	#48D1CC
+}
+
+td:hover {
+	background-color: #5F9EA0;
+	color: #E0FFFF;
+}

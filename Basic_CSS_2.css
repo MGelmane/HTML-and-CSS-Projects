@@ -1,0 +1,22 @@
+
+
+header {
+	
+	font-size: 30px;
+	color: #004C99;
+	background-color: #BAC7E2;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 5px 5px #A7AAD2
+}
+
+p {
+	font-size: 25px;
+	color: #D0F1F6;
+	background-color: #099EB5;
+	
+}
+
+footer {
+	text-align: center;
+}
