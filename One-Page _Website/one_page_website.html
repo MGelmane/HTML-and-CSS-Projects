@@ -4,46 +4,57 @@
 	<head>
 		<title>Special Event Catering</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet"  href="./CSS/one_page_website.css">
 	</head>
 	
 	<body>
 	
 	<!--NAV-->
+	
 		<div>
-			<nav>
-				<a href="#home">HOME</a> | 
-				<a href="#gallery">GALLERY</a> | 
-				<a href="#video">VIDEO</a> |
-				<a href="#contact">CONTACT US</a>
-			</nav>
+			<div id="nav">
+				<ul>
+				<li><a href="#home">HOME</a></li>
+				<li><a href="#gallery">GALLERY</a></li>
+				<li><a href="#video">VIDEO</a></li>
+				<li><a href="#contact">CONTACT</a></li>
+				</ul>
+			</div>
 		</div>
+	
 	<!--END NAV-->
 	
 	<!--HOME-->
 	<div id="home">
 		<div>	
 			<h1>SPECIAL EVENT CATERING</h1>
-			<p>
-			We cater for private and business events and offer different kinds of catering<br>
-			setups starting from a buffet all the way to fancy sit-down dinners. Whether it is<br>
-			a wedding, business function or a kids birthday party, we can make your ideas into<br>
-			reality. We offer a wide array of food items, so don't miss out and start planning<br>
-			your event today!
-			</p>
+			
 		</div>	
 	</div>
 	<!--END HOME-->
 	
 	<!--GALLERY-->
 	<section>
+		<p>
+			We cater for private and business events and offer different kinds of catering
+			setups starting from a buffet all the way to fancy sit-down dinners.<br> Whether it is
+			a wedding, business function or a kids birthday party, we can make your ideas into
+			reality. We offer a wide array of food items,<br>so don't miss out and start planning
+			your event today!
+		</p>
+		<h2>GALLERY</h2>
 		<div id="gallery">
-			<h1>GALLERY<h1>
 			
-			<div>
+				
+			<div class="container">
+			
+			<div class="photos">
+
+				
 			
 		<!--PHOTO CONTAINER-->
-			<div>
-				<div>
+			<div class="photo-container">
+				<div class="photography">
 					<img src="./Images/Photo_1.jpg" alt="We cannot display the image at the moment">
 				</div>
 			</div>	
@@ -51,8 +62,8 @@
 			
 			
 		<!--PHOTO CONTAINER-->
-			<div>
-				<div>
+			<div class="photo-container">
+				<div class="photography">
 					<img src="./Images/Photo_2.jpg" alt="We cannot display the image at the moment">
 				</div>
 			</div>	
@@ -60,8 +71,8 @@
 			
 			
 		<!--PHOTO CONTAINER-->
-			<div>
-				<div>
+			<div class="photo-container">
+				<div class="photography">
 					<img src="./Images/Photo_3.jpg" alt="We cannot display the image at the moment">
 				</div>
 			</div>	
@@ -69,8 +80,8 @@
 				
 			
 		<!--PHOTO CONTAINER-->
-			<div>
-				<div>
+			<div class="photo-container">
+				<div class="photography">
 					<img src="./Images/Photo_4.jpg" alt="We cannot display the image at the moment">
 				</div>
 			</div>	
@@ -78,33 +89,83 @@
 			
 
 		<!--PHOTO CONTAINER-->
-			<div>
-				<div>
+			<div class="photo-container">
+				<div class="photography">
 					<img src="./Images/Photo_5.jpg" alt="We cannot display the image at the moment">
 				</div>
 			</div>	
 		<!--END PHOTO CONTAINER-->	
 				
-				
-		<!--PHOTO CONTAINER-->
-			<div>	
-				<div>
-					<img src="./Images/Photo_6.jpg" alt="We cannot display the image at the moment">
-				</div>
-			</div>	
-		<!--END PHOTO CONTAINER-->
 
 			
 		<!--PHOTO CONTAINER-->
-			<div>	
-				<div>
-					<img src="./Images/Photo_7.jpg" alt="We cannot display the image at the moment">
+			<div class="photo-container">	
+				<div class="photography">
+					<img src="./Images/Photo_6.jpg" alt="We cannot display the image at the moment">
 				</div>
 			</div>	
 		<!--END PHOTO CONTAINER-->	
+
+
+		<!--PHOTO CONTAINER-->
+		<div class="photo-container">
+			<div class="photography">
+				<img src="./Images/Photo_7.jpg" alt="We cannot display the image at the moment">
+			</div>
+		</div>
+		<!--END PHOTO CONTAINER-->
+		
+		
+		<!--PHOTO CONTAINER-->
+		<div class="photo-container">
+			<div class="photography">
+				<img src="./Images/Photo_8.jpg" alt="We cannot display the image at the moment">
+			</div>
+		</div>
+		<!--END PHOTO CONTAINER-->
+		
+		
+		<!--PHOTO CONTAINER-->
+		<div class="photo-container">
+			<div class="photography">
+				<img src="./Images/Photo_9.jpg" alt="We cannot display the image at the moment">
+			</div>
+		</div>
+		<!--END PHOTO CONTAINER-->
+		
+		
+		<!--PHOTO CONTAINER-->
+		<div class="photo-container">
+			<div class="photography">
+				<img src="./Images/Photo_10.jpg" alt="We cannot display the image at the moment">
+			</div>
+		</div>
+		<!--END PHOTO CONTAINER-->
+		
+		
+		<!--PHOTO CONTAINER-->
+		<div class="photo-container">
+			<div class="photography">
+				<img src="./Images/Photo_11.jpg" alt="We cannot display the image at the moment">
+			</div>
+		</div>
+		<!--END PHOTO CONTAINER-->
+		
+		
+		
+		<!--PHOTO CONTAINER-->
+		<div class="photo-container">
+			<div class="photography">
+				<img src="./Images/Photo_12.jpg" alt="We cannot display the image at the moment">
+			</div>
+		</div>
+		<!--END PHOTO CONTAINER-->
+
+
+
 		
 			</div>
-		
+		</div>
 		</div>
 	</section>
 	<!--END GALLERY-->
@@ -123,7 +184,7 @@
 	<!--CONTACT-->
 	<section>
 		<div id="contact">
-		<h3>CONTACT US</h3>
+		<h2>CONTACT US</h2>
 		<p>
 		If you would like to book our services, please get in touch and<br>
 			one of our friendly consultants will be in touch in 24 hours to<br>
@@ -135,7 +196,6 @@
 			Last name: <input type="text" name="Last_Name">
 			Email: <input type="email" name="Email">
 			Phone number: <input type="number" name="Phone_number"><br>
-			<textarea name="Comments"></textarea>
 			<input type="submit" value="Submit">
 		</form>
 	</div>	
@@ -143,8 +203,8 @@
 	<!--END CONTACT-->
 	
 	<!--FOOTER-->
-	<section>
-		<div>
+	<section id="footer">
+		<div id="foot-text">
 			www.yourcaterer.co.uk &copy; 2022
 		</div>
 	<section>	
